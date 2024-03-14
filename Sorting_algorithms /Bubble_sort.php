@@ -1,3 +1,4 @@
+<?php
 function bubble_sort(&$arr) {
     $n = count($arr);
     for ($i = 0; $i < $n - 1; $i++) {
@@ -14,3 +15,4 @@ function bubble_sort(&$arr) {
             break;
     }
 }
+?>
